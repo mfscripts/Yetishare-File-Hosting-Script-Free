@@ -1,0 +1,68 @@
+﻿.social-media-share
+{
+    margin: 0;
+    padding: 0;
+    height: 39px;
+    overflow: hidden;
+}
+.social-media-share .inner
+{
+    position: relative;
+    float: left;
+    width: 32px;
+    height: 30px;
+    border: solid 1px #B5B5B5;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#E5E5E5), to(#CFCFCF));
+    background-image: -moz-linear-gradient(#E5E5E5, #CFCFCF);
+    background-image: -webkit-linear-gradient(#E5E5E5, #CFCFCF);
+    background-image: -o-linear-gradient(#E5E5E5, #CFCFCF);
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    margin: 3px;
+    text-align: center;
+    background-image: url(themes/blue_v2/images/share/plus.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 1px 1px gray;
+    -moz-box-shadow: 0px 1px 1px gray;
+    box-shadow: 0px 1px 1px gray;
+    display: none;
+}
+.social-media-share-tooltip
+{
+    position: absolute;
+    z-index: 200;
+    color: #fff;
+    font-size: 10pt;
+    display: none;
+}
+.social-media-share ul
+{
+    position: relative;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 24px;
+    overflow: hidden;
+    width: 100%;
+}
+.social-media-share ul li
+{
+    display: inline;
+    float: left;
+    margin-left: 18px;
+}
+.social-media-share ul li img
+{
+    border: none;
+}
+
+.shareButtons
+{
+    margin-left: auto;
+    margin-right: auto;
+}

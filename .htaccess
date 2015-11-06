@@ -1,0 +1,24 @@
+# override max php upload settings. Might not work on all servers
+#php_value upload_max_filesize 4000M
+#php_value post_max_size 4000M
+
+# redirect www to non-www
+#RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+#RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+RewriteEngine On
+RewriteCond %{REQUEST_URI} ^(.+)\~s$
+RewriteRule ^(.*) stats.php?u=$1 [L]
+RewriteCond %{REQUEST_URI} ^(.+)\~d$
+RewriteRule ^(.*) delete_file.php?u=$1 [QSA,L]
+RewriteCond %{REQUEST_URI} ^(.+)\~i$
+RewriteRule ^(.*) share_file.php?u=$1 [QSA,L]
+RewriteCond %{REQUEST_URI} ^(.+)\~f$
+RewriteRule ^(.*) view_folder.php?f=$1 [QSA,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond $1 !\.html$
+RewriteRule ^(.*) file_download.php?u=$1 [QSA,L]
+
+RewriteRule ^(.*).html$ $1.php [L]

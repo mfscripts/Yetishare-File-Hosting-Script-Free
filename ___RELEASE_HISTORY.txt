@@ -1,0 +1,87 @@
+v2.1
+
+- Added folder management.
+- After file upload, option set folder.
+- Set folder public or private.
+- Set password on folder.
+- Show files in folder listing page. (for public folders)
+- Added edit file details page.
+- Reset forgotten password pages.
+- Edit account email, name & password page.
+- Optional captcha after download counter for free users.
+- Improved download streaming when using remote ftp file servers.
+- Removed inaccurate upload progress text when using IE.
+- Moved homepage 'benefits' text into translations.
+- On homepage upload, prevented the results box from being closed when clicking any of the rows.
+- Added docx icon into file upload types.
+- Added secure phpinfo page within admin area to aid with debugging.
+- Removed admin area navigation if not logged in.
+- Improved admin login form style.
+- Fixed issue with editing ftp port on file server management.
+- Minor bug fix. In some instances, uploaded files might not be completely removed when deleted by admin.
+- Added check for php ftp functions within admin 'test ftp' page.
+- Fix on "Admin Users" & "File Servers" for the sorting of "total space used" and "total files".
+
+v2.01
+
+- Removed database password from displaying if there's an error with database connectivity.
+- Fixed filtering within admin area.
+- Fixed csv export within admin area.
+- Minor bug fix with account expiry date not updating via admin edit user.
+
+v2.0
+
+- View/amend account paid expiry date within admin area.
+- Added filesize when browsing files admin area.
+- Added filesize in user file manager.
+- More detail on file uploader. Percentage progress, filesize progress, upload speed and time remaining. (Chrome & Firefox only)
+- Option in admin area to show original filename on end of file url.
+- Option to set different download site address to main site. Set downloads from a different domain.
+- Support for https.
+- Improved countdown timer page. More information about the benefits of registering for a paid account inc estimated download time.
+- Support for multiple file servers via FTP.
+- New admin page to configure file servers.
+- Test file server page.
+- Admin area option to use a specific file server or automatically select the one with least space used.
+- Added 'filter by server' option on 'manage files' in admin area.
+- Added 'filter by user' option on 'manage files' in admin area.
+- Added link to 'manage users' to view user uploaded files.
+- Added total space used and total active files to 'manage users' in admin area.
+- Added link to admin area on main site if logged in as admin user.
+
+v1.06
+
+- Removed the ability to bypass the countdown by refreshing on the countdown timer page.
+- Fixed minor character issues within the admin settings page.
+
+v1.05
+
+- Fixed issue which could mean paid users see the countdown timer when downloading a file.
+- Fixed issue which meant the countdown wasn't displayed for free users when clicking on links in the 'your files' section.
+
+v1.04
+
+- Added the ability to specify smtp settings for sending site emails.
+- Fixed filesize bug using IE to upload.
+- Fixed issue where entries are sometimes created in the database on upload failure.
+- Better compatibility with Safari browser.
+
+v1.03
+
+- On some servers larger downloads could produce 500 errors. Resolved in this release.
+
+v1.02
+
+- Minor bug fix to limit maximum days value for redundant file deletion.
+- Missing 'unknown' translation on stats pages.
+- Minor bug fix to block file upload attempts without names and with zero size.
+- Added check for referrer on file upload script.
+
+v1.01
+
+- Minor XXS bug fixes to login/registration pages.
+- Minor spelling fixes.
+
+v1.0
+
+- Initial release.

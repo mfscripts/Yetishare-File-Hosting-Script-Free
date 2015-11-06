@@ -1,0 +1,324 @@
+/* Main CSS styles go here */
+body
+{
+	background-color:	#F2F2F2;
+	color:				#000000;
+	margin:				0;
+	padding:			0;
+	text-align:			left;
+	font-family:		arial, verdana, sans-serif, monospace, cursive;
+	font-size:			12px;
+}
+
+#toolbar
+{
+	border-bottom: 	1px solid #ccc;
+	border-top: 	1px solid #ccc;
+	padding: 		.1em .1em;
+	background: 	url(admin_images/bg_toolbar.jpg) repeat-x scroll 0 0;
+	height:			27px;
+	padding-left:	8px;
+}
+
+#toolbar button
+{
+	font-family:	arial, sans-serif, monospace, cursive;
+	color:			#fff;
+	font-size:		12px;
+	font-weight:	bold;
+        text-transform: lowercase;
+}
+
+a
+{
+	text-decoration:	none;
+	color:				#466F7D;
+}
+
+a:hover
+{
+	text-decoration:	underline;
+	color:				#6598A9;
+}
+
+.yui-button
+{
+	cursor:				pointer;
+}
+
+.clear
+{
+	clear: 				both;
+}
+
+#button_reply .first-child
+{
+	background:		url(admin_images/button1.png) 8px 5px no-repeat;
+}
+
+#button_forward .first-child
+{
+	background:		url(admin_images/button2.gif) 8px 5px no-repeat;
+}
+
+#button_print .first-child
+{
+	background:		url(admin_images/button3.gif) 8px 5px no-repeat;
+}
+
+#button_settings .first-child
+{
+	background:		url(admin_images/button4.png) 9px 6px no-repeat;
+}
+
+#button_users .first-child
+{
+	background:		url(admin_images/button7.png) 9px 6px no-repeat;
+}
+
+#button_banned_ips .first-child
+{
+	background:		url(admin_images/button9.png) 8px 5px no-repeat;
+}
+
+#button_banned_words .first-child
+{
+	background:		url(admin_images/button9.png) 8px 5px no-repeat;
+}
+
+#button_manage_files .first-child
+{
+	background:		url(admin_images/button10.png) 8px 5px no-repeat;
+}
+
+#button_languages .first-child
+{
+	background:		url(admin_images/button8.png) 9px 5px no-repeat;
+}
+
+#button_languages, #button_settings, #button_banned_ips
+{
+	float:			right;
+}
+
+#button_reply .first-child button, #button_forward .first-child button, #button_print .first-child button, #button_settings .first-child button, #button_users .first-child button, #button_languages .first-child button, #button_banned_ips .first-child button, #button_manage_files .first-child button, #button_banned_words .first-child button
+{
+	padding-left: 	1.5em;
+}
+
+.first-child
+{
+    padding-left: 		0.7em;
+}
+
+#toolbar .yui-button, #toolbar .yui-button .first-child
+{
+	border-color: 	transparent;
+}
+#toolbar .yui-button-hover, #toolbar .yui-button-hover .first-child
+{
+	border-color: 	transparent;
+}
+#toolbar .yui-button
+{
+	background: 	none;
+}
+#toolbar .yui-button-hover
+{
+	background:		transparent url(admin_images/bg_toolbar_hover.jpg) repeat-x scroll 0 -2px;
+}
+.first-of-type li
+{
+	list-style: 	none;
+	padding: 		0;
+	margin: 		0;
+}
+#button_logout
+{
+	float:			right;
+}
+#button_logout .first-child
+{
+	background:				url(admin_images/button6.png) 1px 5px no-repeat;
+	background-position:	0px 5px;
+}
+
+.yui-skin-sam .yui-layout .yui-layout-unit div.yui-layout-bd
+{
+	border:				none;
+}
+.adminHeaderContainer
+{
+	background-image:	url('admin_images/bg_header.jpg');
+	background-repeat:	repeat-x;
+	min-width:			600px;
+}
+.adminHeader
+{
+	height:				50px;
+}
+.adminSubHeader
+{
+	padding:			0px;
+	color:				#fff;
+	font-size:			11px;
+}
+.adminLinksRight
+{
+	padding:			10px;
+	float:				right;
+        text-align:                     right;
+}
+
+.adminLinksRight .error
+{
+        padding:                       2px;
+        background-color:              red;
+        font-weight:                   bold;
+        height:                        13px;
+        margin-top:                    1px;
+}
+
+.adminBody
+{
+	padding:			15px;
+	background-color:	#fff;
+	min-width:			600px;
+}
+.adminFooterContainer
+{
+	background-image:	url('admin_images/bg_footer.jpg');
+	background-repeat:	repeat-x;
+	min-width:			600px;
+}
+.adminFooter
+{
+	padding: 			15px;
+	height:				100px;
+	font-size:			11px;
+}
+.yui-skin-sam .yui-layout .yui-layout-unit div.yui-layout-bd-noft
+{
+	border-bottom: 			1px solid red;
+}
+
+/* yui table */
+.yui-skin-sam .yui-dt-col-address pre { font-family:arial;font-size:100%; }
+
+.navLink li
+{
+	list-style-position: 	outside;
+	list-style-image:		url(admin_images/navLinkBullet.gif);
+	list-style-type: 		square;
+}
+
+.yui-dt-selected a, .yui-dt-selected .urlStatus_green, .yui-dt-selected .urlStatus_red
+{
+	color:					#fff;
+}
+
+.urlStatus_green
+{
+	color:					green;
+}
+
+.urlStatus_red
+{
+	color:					red;
+}
+
+
+/* form styles */
+.inputEx-Group-Custom fieldset
+{
+	border: 				1px solid rgb(204, 204, 204);
+	padding: 				10px;
+}
+
+div.inputEx-Password-StrengthIndicator
+{
+    clear: 					both;
+    color: 					#505050;
+    font-size: 				70%;
+    padding-top:			4px;
+    width:					83px;
+}
+
+.yuiTable
+{
+	font-size:				12px;
+}
+
+.fileSearch
+{
+	font-size:				14px;
+	width:					160px;
+}
+
+/* dashboard styles */
+.dashboardDataTable
+{
+	float:					left;
+	margin-top:				54px;
+	margin-left:			37px;
+}
+.dashboardPie
+{
+	float:					left;
+	margin-top:				25px;
+	margin-left:			30px;
+}
+.dashboard14Days
+{
+	float:					left;
+}
+.dashboard12Months
+{
+	float:					left;
+}
+
+.loginForm
+{
+	width:					280px;
+	margin-left:			auto;
+	margin-right:			auto;
+	padding:				30px;
+	background-color:		#eee;
+	border:					1px solid #ccc;
+}
+.loginForm .pageErrors
+{
+	color:					red;
+}
+.loginForm div
+{
+	padding-bottom:			6px;
+}
+.loginForm label
+{
+	width:					90px;
+	float:					left;
+	cursor:					pointer;
+}
+.loginForm input
+{
+	width:					97%;
+	height:					20px;
+	padding:				4px;
+	border:					1px solid #999;
+}
+.loginForm input:hover
+{
+	border:					1px solid #666;
+}
+
+.loginForm input[type="submit"]
+{
+	cursor:					pointer;
+}
+
+/* V2.0 */
+#button_servers .first-child
+{
+	background:		url(admin_images/button20.png) 0px 5px no-repeat;
+}

@@ -1,0 +1,28 @@
+INSTALLATION:
+
+- Unpack the script package.
+- Update "/_config.inc.php" with your site url and the full path to the root of the script. In most instances, this will be your domain name (for _CONFIG_SITE_HOST_URL & _CONFIG_SITE_FULL_URL) in the format www.mydomain.com. Don't include the http:// or the trailing forward slash.
+- Setup a new Mysql database on your hosting and note the connection details.
+- Import the database structure into your DB - located in "/offline/file_hosting.sql"
+- Update "/_config.inc.php" with the new database connection details. (host, user, password & db name)
+- Upload all files (apart from the /offline folder) via FTP onto your hosting account.
+- Set permissions of 777 on the following folder(s):
+        - /files
+- The admin area can be accessed by adding "/admin/" onto the domain - i.e. yourdomain.com/admin/
+- Admin area access details:
+	- user: admin
+	- pass: password
+- Config values can be setup within the "Site Settings" section within the admin area.
+- You're done!
+
+
+SUPPORT:
+
+- MFScripts does not provide support for this product.
+
+
+SCRIPT REQUIREMENTS:
+
+- PHP5.2+
+- MySQL
+- Mod-Rewrite enabled

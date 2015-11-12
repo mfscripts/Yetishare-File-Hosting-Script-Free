@@ -1,9 +1,9 @@
-<h1>YetiShare Free - File Hosting Script</h1>
+<h1>YetiShare - File Hosting Script Free</h1>
 
 Run your own personal file upload website or a file hosting business and earn money online selling premium file hosting accounts.
 
-<h2>About YetiShare Free - File Hosting Script</h2>
-YetiShare Free File Hosting Script is version 2.1 of the premium PHP script available at <a href="http://yetishare.com/">YetiShare.com</a>. YetiShare is currently in version 4+ and has undergone a vast amount of changes from the 2.1 version which was released in June 2012.
+<h2>About YetiShare - File Hosting Script Free</h2>
+YetiShare File Hosting Script Free is version 2.1 of the premium PHP script available at <a href="http://yetishare.com/">YetiShare.com</a>. YetiShare is currently in version 4+ and has undergone a vast amount of changes from the 2.1 version which was released in June 2012.
 
 This community based release to supplied without support or liability, feel free use it as you wish. The only restriction is that this file must remain in place on any installs or redistributed code.
 

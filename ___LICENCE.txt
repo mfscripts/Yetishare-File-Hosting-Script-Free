@@ -1,7 +1,3 @@
-Product licence details.
-
-Full terms and conditions of MFScripts can be seen at https://mfscripts.com/terms-purchase.html.
-
 The MIT License (MIT)
 
 Copyright (c) 2015 MFScripts http://mfscripts.com/

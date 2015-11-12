@@ -8,7 +8,7 @@ YetiShare Free File Hosting Script is version 2.1 of the premium PHP script avai
 This community based release to supplied without support or liability, feel free use it as you wish. The only restriction is that this file must remain in place on any installs or redistributed code.
 
 <h2>Release History</h2>
-- 12th November 2015: Released as community based project.
+- See ___RELEASE_HISTORY.txt
 
 <h2>Requirements</h2>
 - PHP5.2+

@@ -16,7 +16,7 @@ This community based release to supplied without support or liability, feel free
 - Mod-Rewrite enabled
 
 <h2>Installation</h2>
-Full instructions are given in ___INSTALLATION.txt file found within the repository.
+Full instructions are given in the ___INSTALLATION.txt file found within the repository.
 
 <h2>Contributions</h2>
 If you'd like to contribute to the project, please contact us via the github project https://github.com/mfscripts/YetiShare-File-Hosting-Script-Free

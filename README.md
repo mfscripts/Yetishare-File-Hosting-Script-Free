@@ -25,4 +25,4 @@ If you'd like to contribute to the project, please contact us via the github pro
 YetiShare <a href="http://yetishare.com/">File Hosting Script</a> Free is copyrighted by <a href="http://mfscripts.com/">MFScripts</a> and is released under the <a href="http://opensource.org/licenses/MIT">MIT license</a>. You are free to use YetiShare Free in any way that you wish as long as this file remains in place on any installs or redistributed code.
 
 <h2>Support</h2>
-This code is released without any support and as-is. Any support requests on this version will be removed. For community driven support use the github project https://github.com/mfscripts/YetiShare-File-Hosting-Script-Free
+This code is released without any support and as-is. Any support requests on this version will be removed. For community driven support please use the github project https://github.com/mfscripts/YetiShare-File-Hosting-Script-Free

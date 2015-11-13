@@ -15,14 +15,12 @@ INSTALLATION:
 - Config values can be setup within the "Site Settings" section within the admin area.
 - You're done!
 
-
 SUPPORT:
-
 - MFScripts does not provide support for this product.
 
-
 SCRIPT REQUIREMENTS:
-
 - PHP5.2+
 - MySQL
 - Mod-Rewrite enabled
+
+Check out http://yetishare.com/ for other PHP scripts!

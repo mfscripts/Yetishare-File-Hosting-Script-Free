@@ -51,7 +51,7 @@
                     echo '<strong>[ <a href="'.WEB_ROOT.'/admin/" target="_blank">'.t('admin_area', 'admin area').'</a> ]</strong><br/><br/>';
                 }
                 ?>
-                <?php echo t("copyright", "copyright"); ?> &copy; <?php echo date("Y"); ?> - <?php echo SITE_CONFIG_SITE_NAME; ?> - <a href="http://www.mfscripts.com/file_hosting_script.html" target="_blank">File Hosting Script</a> <?php echo t("created_by", "created by "); ?> <a href="http://www.mfscripts.com" target="_blank">MFScripts.com</a>
+                <?php echo t("copyright", "copyright"); ?> &copy; <?php echo date("Y"); ?> - <?php echo SITE_CONFIG_SITE_NAME; ?> - <a href="https://yetishare.com" target="_blank">File Sharing Script</a> <?php echo t("created_by", "created by "); ?> <a href="https://mfscripts.com" target="_blank">MFScripts.com</a>
             </div>
             <div class="clear"><!-- --></div>
             
